@@ -34,7 +34,7 @@ module.exports = override(
 
 ### 2022-04-25  react-media
 
-多端适配解决方案之一
+移动端适配解决方案之一
 
 ```ts
 yarn add react-media@next
