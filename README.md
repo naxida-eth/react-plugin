@@ -34,7 +34,11 @@ module.exports = override(
 
 ### 2022-04-25  react-media
 
+多端适配解决方案之一
+
+```ts
 yarn add react-media@next
+```
 
 [react-media](https://github.com/ReactTraining/react-media)
 
