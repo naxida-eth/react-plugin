@@ -91,7 +91,7 @@ coding...
 
 ### 2022-04-28  react-loading-skeleton
 
-消息提示库
+react 骨架屏插件
 
 ```ts
 yarn add react-loading-skeleton
