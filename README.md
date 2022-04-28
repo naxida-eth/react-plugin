@@ -98,6 +98,5 @@ yarn add react-loading-skeleton
 ```
 
 [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
-[wiki](https://popper.js.org/docs/v2/modifiers/compute-styles/)
 
 coding...
