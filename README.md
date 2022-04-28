@@ -99,4 +99,4 @@ yarn add react-loading-skeleton
 
 [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
 
-coding...
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Skeleton/index.tsx
