@@ -88,3 +88,16 @@ yarn add react-popper @popperjs/core
 
 coding... 
 
+
+### 2022-04-28  react-loading-skeleton
+
+消息提示库
+
+```ts
+yarn add react-loading-skeleton
+```
+
+[react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
+[wiki](https://popper.js.org/docs/v2/modifiers/compute-styles/)
+
+coding...
