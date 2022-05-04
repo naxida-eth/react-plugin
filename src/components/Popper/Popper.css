@@ -1,0 +1,19 @@
+.popover-arrow,
+.popover-arrow::before {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background: inherit;
+  right: 0px;
+}
+
+.popover-arrow::before {
+  visibility: visible;
+  content: "";
+  transform: rotate(45deg);
+  right: -6px;
+}
+
+.popover > .popover-arrow::before {
+  transform: rotate(135deg);
+}
