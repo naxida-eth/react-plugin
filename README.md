@@ -86,7 +86,7 @@ yarn add react-popper @popperjs/core
 [react-popper](https://popper.js.org/react-popper/v2/)
 [wiki](https://popper.js.org/docs/v2/modifiers/compute-styles/)
 
-coding... 
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Skeleton/index.tsx
 
 
 ### 2022-04-28  react-loading-skeleton
@@ -99,4 +99,4 @@ yarn add react-loading-skeleton
 
 [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
 
-code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Skeleton/index.tsx
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Popper/index.tsx
