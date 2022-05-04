@@ -100,3 +100,17 @@ yarn add react-loading-skeleton
 [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
 
 code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Popper/index.tsx
+
+### 2022-05-04  react-quick-pinch-zoom
+
+图片双指缩放插件 
+
+```ts
+yarn add react-quick-pinch-zoom
+```
+
+[react-quick-pinch-zoom](https://github.com/retyui/react-quick-pinch-zoom)
+
+[api](https://github.com/retyui/react-quick-pinch-zoom/blob/master/docs/api/README.md)
+
+coding...
