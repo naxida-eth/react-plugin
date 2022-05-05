@@ -1,0 +1,17 @@
+.transition-enter {
+  opacity: 0;
+  transform: scale(0.1);
+}
+.transition-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 400ms, transform 400ms;
+}
+.transition-exit {
+  opacity: 1;
+}
+.transition-exit-active {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: opacity 400ms, transform 400ms;
+}
