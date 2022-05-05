@@ -28,7 +28,9 @@ const LoadingSkeleton: FC<IProps> = ({
         if (typeof src === 'string') {
             const img = new Image();
             img.src = src
-            img.onload = () => setLoaded(true)
+            img.decode().then(() => {
+                setLoaded(true)
+            })
             img.onerror = err => console.log(`${src} 图片加载失败`, err)
         } else if (Array.isArray(src)) {
             const imgPromise: Promise<unknown>[] = []
@@ -36,9 +38,9 @@ const LoadingSkeleton: FC<IProps> = ({
                 imgPromise.push(new Promise((res, rej) => {
                     const img = new Image();
                     img.src = i
-                    img.onload = () => {
+                    img.decode().then(() => {
                         res(i)
-                    }
+                    })
                     img.onerror = (err) => {
                         rej()
                     }
@@ -51,7 +53,7 @@ const LoadingSkeleton: FC<IProps> = ({
         }
     }, [src])
 
-    const onChange = (checked:boolean)=>{
+    const onChange = (checked: boolean) => {
         setLoaded(checked)
     }
     return (
