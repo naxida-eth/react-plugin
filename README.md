@@ -127,4 +127,4 @@ yarn add react-transition-group
 
 [api](https://reactcommunity.org/react-transition-group/transition)
 
-coding...
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Transition/index.tsx
