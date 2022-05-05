@@ -114,3 +114,17 @@ yarn add react-quick-pinch-zoom
 [api](https://github.com/retyui/react-quick-pinch-zoom/blob/master/docs/api/README.md)
 
 coding...
+
+### 2022-05-05  react-transition-group
+
+react动画插件，可以比较自由的定制自己的动画
+
+```ts
+yarn add react-transition-group
+```
+
+[react-transition-group](https://github.com/reactjs/react-transition-group)
+
+[api](https://reactcommunity.org/react-transition-group/transition)
+
+coding...
