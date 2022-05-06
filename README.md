@@ -60,7 +60,7 @@ yarn add react-quick-pinch-zoom
 
 [api](https://github.com/retyui/react-quick-pinch-zoom/blob/master/docs/api/README.md)
 
-coding...
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/QuickPinch/index.tsx
 
 
 
