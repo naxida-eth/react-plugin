@@ -32,6 +32,65 @@ module.exports = override(
 ```
 
 
+### 2022-05-05  react-transition-group
+
+react动画插件，可以比较自由的定制自己的动画
+
+```ts
+yarn add react-transition-group
+```
+
+[react-transition-group](https://github.com/reactjs/react-transition-group)
+
+[api](https://reactcommunity.org/react-transition-group/transition)
+
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Transition/index.tsx
+
+
+
+### 2022-05-04  react-quick-pinch-zoom
+
+图片双指缩放插件 
+
+```ts
+yarn add react-quick-pinch-zoom
+```
+
+[react-quick-pinch-zoom](https://github.com/retyui/react-quick-pinch-zoom)
+
+[api](https://github.com/retyui/react-quick-pinch-zoom/blob/master/docs/api/README.md)
+
+coding...
+
+
+
+### 2022-04-28  react-loading-skeleton
+
+react 骨架屏插件
+
+```ts
+yarn add react-loading-skeleton
+```
+
+[react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
+
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Popper/index.tsx
+
+
+### 2022-04-27  react-popper
+
+消息提示库
+
+```ts
+yarn add react-popper @popperjs/core
+```
+
+[react-popper](https://popper.js.org/react-popper/v2/)
+[wiki](https://popper.js.org/docs/v2/modifiers/compute-styles/)
+
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Skeleton/index.tsx
+
+
 ### 2022-04-25  react-media
 
 移动端适配解决方案之一
@@ -75,56 +134,3 @@ const PMedia = () => {
 export default PMedia
 ```
 
-### 2022-04-27  react-popper
-
-消息提示库
-
-```ts
-yarn add react-popper @popperjs/core
-```
-
-[react-popper](https://popper.js.org/react-popper/v2/)
-[wiki](https://popper.js.org/docs/v2/modifiers/compute-styles/)
-
-code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Skeleton/index.tsx
-
-
-### 2022-04-28  react-loading-skeleton
-
-react 骨架屏插件
-
-```ts
-yarn add react-loading-skeleton
-```
-
-[react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
-
-code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Popper/index.tsx
-
-### 2022-05-04  react-quick-pinch-zoom
-
-图片双指缩放插件 
-
-```ts
-yarn add react-quick-pinch-zoom
-```
-
-[react-quick-pinch-zoom](https://github.com/retyui/react-quick-pinch-zoom)
-
-[api](https://github.com/retyui/react-quick-pinch-zoom/blob/master/docs/api/README.md)
-
-coding...
-
-### 2022-05-05  react-transition-group
-
-react动画插件，可以比较自由的定制自己的动画
-
-```ts
-yarn add react-transition-group
-```
-
-[react-transition-group](https://github.com/reactjs/react-transition-group)
-
-[api](https://reactcommunity.org/react-transition-group/transition)
-
-coding...
