@@ -5,14 +5,12 @@ interface QProps {
     src: string,
     style?: CSSProperties,
 }
-
 const QuickPinch: FC<QProps> = ({
     src,
     style = {}
 }) => {
     const imgRef = useRef<HTMLImageElement>();
     const onUpdate = useCallback(({ x, y, scale }) => {
-        console.log(imgRef);
         const { current } = imgRef;
         if (current) {
             const value = make3dTransformValue({ x, y, scale });
