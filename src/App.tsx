@@ -1,12 +1,14 @@
+import { useDeferredValue, useState } from "react";
+
+import { Button } from "antd";
+
 import PMedia from "./components/PMedia";
 import Skeleton from './components/Skeleton'
-import photo from './images/photo.jpg'
-
 import Popper from "./components/Popper";
-
 import Transition from "./components/Transition";
-import { Button } from "antd";
-import { useDeferredValue, useState } from "react";
+import QuickPinch from "./components/QuickPinch";
+
+import photo from './images/photo.jpg'
 
 function App() {
   const [clicked, setClicked] = useState<boolean>(false);
@@ -24,20 +26,20 @@ function App() {
         bottom: 0,
         right: 0,
         margin: 'auto',
-        width: 300,
-        height: 300,
+        // width: 400,
+        // height: 400,
         background: '#98cce3',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
       }}>
+
         {/* <Popper>123</Popper> */}
-        <Button onClick={() => setClicked(!clickedDef)}>click me</Button>
-        {
-          clickedDef && <Transition>
-            这里有动画哟
-          </Transition>
-        }
+
+        {/* <Button onClick={() => setClicked(!clickedDef)}>click me</Button>
+        {clickedDef && <Transition>这里有动画哟</Transition>} */}
+
+        <QuickPinch src={photo} style={{ height: '50vh', width: '50vh' }}></QuickPinch>
       </div>
     </>
   );
