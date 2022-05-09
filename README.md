@@ -30,7 +30,17 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-05-09  use-clamp-text
 
+react多行文本处理的hook
+
+```ts
+yarn add use-clamp-text
+```
+
+[use-clamp-text](https://github.com/drenther/use-clamp-text)
+
+codeing...
 
 ### 2022-05-05  react-transition-group
 
