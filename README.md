@@ -40,7 +40,7 @@ yarn add use-clamp-text
 
 [use-clamp-text](https://github.com/drenther/use-clamp-text)
 
-codeing...
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/ClampText/index.tsx
 
 ### 2022-05-05  react-transition-group
 
