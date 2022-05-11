@@ -1,5 +1,5 @@
 ### 关于
-hello,这里是记录自己的react插件库
+hello,这里是记录自己常用的react插件库
 
 ### UI
 
