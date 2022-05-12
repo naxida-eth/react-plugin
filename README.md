@@ -1,28 +1,31 @@
 ### 关于
-hello,这里是记录自己常用的react插件库
+
+hello,这里是记录自己常用的 react 插件库
 
 ### UI
 
-使用antd
+使用 antd
 
 ```ts
 yarn add antd react-app-rewired customize-cra babel-plugin-import
 ```
 
 创建 config-overriders.js
+
 ```js
-const { override, fixBabelImports } = require('customize-cra');
+const { override, fixBabelImports } = require("customize-cra");
 
 module.exports = override(
-    fixBabelImports('import', {
-        libraryName: 'antd',
-        libraryDirectory: 'es',
-        style: 'css',
-    }),
+  fixBabelImports("import", {
+    libraryName: "antd",
+    libraryDirectory: "es",
+    style: "css",
+  })
 );
 ```
 
 修改 package.json
+
 ```json
 "scripts": {
    "start": "react-app-rewired start",
@@ -30,7 +33,8 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
-### 2022-05-12  react-dropzone
+
+### 2022-05-12 react-dropzone
 
 图片拖拽上传插件
 
@@ -40,11 +44,11 @@ yarn add react-dropzone
 
 [react-dropzone](https://github.com/react-dropzone/react-dropzone)
 
-coding...
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/pages/Dropzone/index.tsx
 
-### 2022-05-09  use-clamp-text
+### 2022-05-09 use-clamp-text
 
-react多行文本处理的hook
+react 多行文本处理的 hook
 
 ```ts
 yarn add use-clamp-text
@@ -54,9 +58,9 @@ yarn add use-clamp-text
 
 code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/ClampText/index.tsx
 
-### 2022-05-05  react-transition-group
+### 2022-05-05 react-transition-group
 
-react动画插件，可以比较自由的定制自己的动画
+react 动画插件，可以比较自由的定制自己的动画
 
 ```ts
 yarn add react-transition-group
@@ -68,11 +72,9 @@ yarn add react-transition-group
 
 code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Transition/index.tsx
 
+### 2022-05-04 react-quick-pinch-zoom
 
-
-### 2022-05-04  react-quick-pinch-zoom
-
-图片双指缩放插件 
+图片双指缩放插件
 
 ```ts
 yarn add react-quick-pinch-zoom
@@ -84,9 +86,7 @@ yarn add react-quick-pinch-zoom
 
 code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/QuickPinch/index.tsx
 
-
-
-### 2022-04-28  react-loading-skeleton
+### 2022-04-28 react-loading-skeleton
 
 react 骨架屏插件
 
@@ -98,8 +98,7 @@ yarn add react-loading-skeleton
 
 code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Popper/index.tsx
 
-
-### 2022-04-27  react-popper
+### 2022-04-27 react-popper
 
 消息提示库
 
@@ -112,8 +111,7 @@ yarn add react-popper @popperjs/core
 
 code: https://github.com/WuMing1998/react-plugin/blob/main/src/components/Skeleton/index.tsx
 
-
-### 2022-04-25  react-media
+### 2022-04-25 react-media
 
 移动端适配解决方案之一
 
@@ -124,34 +122,34 @@ yarn add react-media@next
 [react-media](https://github.com/ReactTraining/react-media)
 
 const.ts
+
 ```ts
 export const GLOBAL_MEDIA_QUERIES = {
-    small: "(max-width: 599px)",
-    medium: "(min-width: 600px) and (max-width: 1199px)",
-    large: "(min-width: 1200px)"
-} as const
+  small: "(max-width: 599px)",
+  medium: "(min-width: 600px) and (max-width: 1199px)",
+  large: "(min-width: 1200px)",
+} as const;
 ```
 
 PMedia.tsx
+
 ```tsx
-import { useMedia } from 'react-media'
-import { GLOBAL_MEDIA_QUERIES } from '../const';
+import { useMedia } from "react-media";
+import { GLOBAL_MEDIA_QUERIES } from "../const";
 
 const PMedia = () => {
-    const matches = useMedia({ queries: GLOBAL_MEDIA_QUERIES });
+  const matches = useMedia({ queries: GLOBAL_MEDIA_QUERIES });
 
-    const getNowMedia = () => {
-        if (matches.large) {
-            return 'large'
-        } else if (matches.medium) {
-            return 'medium'
-        } else if (matches.small) {
-            return 'small'
-        }
+  const getNowMedia = () => {
+    if (matches.large) {
+      return "large";
+    } else if (matches.medium) {
+      return "medium";
+    } else if (matches.small) {
+      return "small";
     }
-    return <>
-        now media?  {getNowMedia()}
-    </>
-}
-export default PMedia
+  };
+  return <>now media? {getNowMedia()}</>;
+};
+export default PMedia;
 ```
