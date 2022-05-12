@@ -30,6 +30,18 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-05-12  react-dropzone
+
+图片拖拽上传插件
+
+```ts
+yarn add react-dropzone
+```
+
+[react-dropzone](https://github.com/react-dropzone/react-dropzone)
+
+coding...
+
 ### 2022-05-09  use-clamp-text
 
 react多行文本处理的hook
