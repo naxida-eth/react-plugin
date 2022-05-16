@@ -34,6 +34,18 @@ module.exports = override(
 }
 ```
 
+### 2022-05-16 react-simply-carousel
+
+轻量化的轮播图组件，可定制，支持SSR
+
+```ts
+yarn add react-simply-carousel
+```
+
+[react-simply-carousel](https://github.com/vadymshymko/react-simply-carousel)
+
+coding...
+
 ### 2022-05-12 react-dropzone
 
 图片拖拽上传插件
