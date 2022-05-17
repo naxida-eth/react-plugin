@@ -44,7 +44,7 @@ yarn add react-simply-carousel
 
 [react-simply-carousel](https://github.com/vadymshymko/react-simply-carousel)
 
-coding...
+code: https://github.com/WuMing1998/react-plugin/blob/main/src/pages/CarouselPage/index.tsx
 
 ### 2022-05-12 react-dropzone
 
