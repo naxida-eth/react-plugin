@@ -10,6 +10,7 @@ import ClampText from "src/components/ClampText";
 import Dropzone from "src/pages/Dropzone";
 
 import photo from "src/images/photo.jpg";
+import CarouselPage from "./CarouselPage";
 
 const index: FC = () => {
   //   const [clicked, setClicked] = useState<boolean>(false);
@@ -29,8 +30,8 @@ const index: FC = () => {
           bottom: 0,
           right: 0,
           margin: "auto",
-          width: 400,
-          height: 400,
+          // width: 400,
+          // height: 400,
           background: "#98cce3",
           display: "flex",
           alignItems: "center",
@@ -39,7 +40,9 @@ const index: FC = () => {
           padding:12,
         }}
       >
-        <Dropzone></Dropzone>
+        {/* <Dropzone></Dropzone> */}
+        <CarouselPage></CarouselPage>
+
         {/* <ClampText style={{ padding: 12 }}></ClampText> */}
         {/* <Popper>123</Popper> */}
 
