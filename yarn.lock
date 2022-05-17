@@ -3178,6 +3178,11 @@ core-js@^3.19.2:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.22.2.tgz#3ea0a245b0895fa39d1faa15fe75d91ade504a01"
   integrity sha512-Z5I2vzDnEIqO2YhELVMFcL1An2CIsFe9Q7byZhs8c/QxummxZlAHw33TUHbIte987LkisOgL0LwQ1P9D6VISnA==
 
+core-js@^3.8.1:
+  version "3.22.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.22.5.tgz#a5f5a58e663d5c0ebb4e680cd7be37536fb2a9cf"
+  integrity sha512-VP/xYuvJ0MJWRAobcmQ8F2H6Bsn+s7zqAAjFaHGBMc5AQm7zaelhD1LGduFn2EehEcQcU+br6t+fwbpQ5d1ZWA==
+
 core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
@@ -7648,6 +7653,13 @@ react-scripts@5.0.1:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
+
+react-simply-carousel@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/react-simply-carousel/-/react-simply-carousel-7.0.0.tgz#da7c363615d16d5e6d0766574440ea3bfff54862"
+  integrity sha512-N3f5UQYbXja9haRbbAgglMbhYtPoGqPK1VpWlIyRV67bZTHjRnS5pwv/iNNtBu7xbaNHDrijkXKwlHyOn8d8DQ==
+  dependencies:
+    core-js "^3.8.1"
 
 react-transition-group@^4.4.2:
   version "4.4.2"
