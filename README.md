@@ -34,6 +34,18 @@ module.exports = override(
 }
 ```
 
+### 2022-05-20 react-spring
+
+好用的 react 动画组件
+
+```ts
+yarn add react-spring
+```
+
+[react-spring](https://github.com/pmndrs/react-spring)
+
+[api](https://react-spring.io/)
+
 ### 2022-05-19 react-gridsheet
 
 简易表格组件
@@ -44,7 +56,7 @@ yarn add react-gridsheet
 
 [react-gridsheet](https://github.com/walkframe/react-gridsheet)
 
-coding...
+code: https://codesandbox.io/s/react-gridsheet-with-formula-forked-27ztur?file=/src/App.tsx
 
 ### 2022-05-16 react-simply-carousel
 
