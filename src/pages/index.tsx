@@ -1,4 +1,4 @@
-import { FC, useDeferredValue, useState } from "react";
+import { CSSProperties, FC, useDeferredValue, useState } from "react";
 
 import { Button } from "antd";
 import PMedia from "src/components/PMedia";
@@ -11,6 +11,7 @@ import Dropzone from "src/pages/Dropzone";
 
 import photo from "src/images/photo.jpg";
 import CarouselPage from "./CarouselPage";
+import Spring from "../components/Spring";
 
 const index: FC = () => {
   //   const [clicked, setClicked] = useState<boolean>(false);
@@ -37,12 +38,24 @@ const index: FC = () => {
           alignItems: "center",
           justifyContent: "center",
           flexWrap: "wrap",
-          padding:12,
+          padding: 12,
         }}
       >
         {/* <Dropzone></Dropzone> */}
-        <CarouselPage></CarouselPage>
-
+        {/* <CarouselPage></CarouselPage> */}
+        <Spring
+          spring={{
+            from: { transform: "rotateZ(0deg)" },
+            to: { transform: "rotateZ(180deg)" },
+            loop: true,
+          }}
+          style={{
+            width: 80,
+            height: 80,
+            backgroundColor: "#46e891",
+            borderRadius: 16,
+          }}
+        ></Spring>
         {/* <ClampText style={{ padding: 12 }}></ClampText> */}
         {/* <Popper>123</Popper> */}
 
