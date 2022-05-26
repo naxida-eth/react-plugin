@@ -33,6 +33,18 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-05-24 react-page-transition
+
+很好看的页面加载动画插件
+
+```cmd
+yarn add @steveeeie/react-page-transition
+```
+
+[react-page-transition](https://github.com/Steveeeie/react-page-transition)
+
+[code](https://codesandbox.io/s/advanced-react-page-transition-demo-z8hmd)
+
 ### 2022-05-24 styled-components
 
 敏捷开发样式的插件。非常快！
