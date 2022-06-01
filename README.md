@@ -33,6 +33,29 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+
+### 2022-06-01 react-datepicker
+
+日期选择插件
+
+```cmd
+yarn add react-datepicker
+```
+
+[react-datepicker](https://github.com/any86/any-touch)
+
+[code](https://reactdatepicker.com/)
+
+### 2022-06-01 any-touch
+
+页面手势插件：点击、拖拽、滑动、双指缩放、双指旋转等。
+
+```cmd
+yarn add any-touch
+```
+
+[any-touch](https://github.com/any86/any-touch)
+
 ### 2022-05-24 react-page-transition
 
 很好看的页面加载动画插件
