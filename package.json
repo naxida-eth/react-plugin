@@ -20,6 +20,7 @@
     "react-dropzone": "^14.2.1",
     "react-loading-skeleton": "^3.1.0",
     "react-media": "^2.0.0-rc.1",
+    "react-medium-image-zoom": "^4.4.3",
     "react-popper": "^2.3.0",
     "react-quick-pinch-zoom": "^4.4.1",
     "react-scripts": "5.0.1",
