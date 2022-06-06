@@ -34,6 +34,18 @@ module.exports = override(
 }
 ```
 
+### 2022-06-06 react-medium-image-zoom
+
+日期选择插件
+
+```cmd
+yarn add react-medium-image-zoom
+```
+
+[react-medium-image-zoom](https://github.com/rpearce/react-medium-image-zoom)
+
+[code](https://rpearce.github.io/react-medium-image-zoom/?path=/story/zoom--gallery)
+
 ### 2022-06-01 react-datepicker
 
 日期选择插件
