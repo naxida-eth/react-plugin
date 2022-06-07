@@ -33,7 +33,17 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-06-07 react-query
 
+接口请求插件，省心
+
+```cmd
+yarn add react-query
+```
+
+[react-query](https://github.com/TanStack/query)
+
+[api](https://tanstack.com/query/v4/docs/overview)
 ### 2022-06-06 react-medium-image-zoom
 
 日期选择插件
