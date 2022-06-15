@@ -33,6 +33,32 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-06-15 react-stick
+
+悬浮插件、比较原始，自定义比较好
+
+```cmd
+yarn add react-stick
+```
+
+[react-stick](https://github.com/signavio/react-stick)
+
+[demo](https://react-stick.vercel.app/)
+
+### 2022-06-07 react-query
+
+### 2022-06-15 react-smooth-corners
+
+圆角插件，设计的很好看
+
+```cmd
+yarn add react-smooth-corners
+```
+
+[react-smooth-corners](https://github.com/DJanoskova/react-smooth-corners)
+
+[demo](https://react-smooth-corners.netlify.app/)
+
 ### 2022-06-07 react-query
 
 接口请求插件，省心
