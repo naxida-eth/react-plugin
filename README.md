@@ -45,8 +45,6 @@ yarn add react-stick
 
 [demo](https://react-stick.vercel.app/)
 
-### 2022-06-07 react-query
-
 ### 2022-06-15 react-smooth-corners
 
 圆角插件，设计的很好看
