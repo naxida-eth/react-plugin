@@ -33,6 +33,16 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-06-16 react-collapsible
+
+文本折叠插件
+
+```cmd
+yarn add react-collapsible
+```
+
+[react-collapsible](https://github.com/glennflanagan/react-collapsible)
+
 ### 2022-06-15 react-stick
 
 悬浮插件、比较原始，自定义比较好
