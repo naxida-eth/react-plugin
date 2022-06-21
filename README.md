@@ -33,6 +33,16 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+
+### 2022-06-21 react-pin-field
+
+验证码输入插件
+
+```cmd
+yarn add react-pin-field
+```
+
+[react-pin-field](https://github.com/soywod/react-pin-field)
 ### 2022-06-16 react-collapsible
 
 文本折叠插件
