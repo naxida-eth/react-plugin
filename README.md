@@ -34,6 +34,17 @@ module.exports = override(
 }
 ```
 
+### 2022-06-28 react-range
+
+验证码输入插件
+
+```cmd
+yarn add react-range
+```
+react滑动条，接到需求需要做一个双向滑动条的筛选，体验不错的滑动插件。
+
+[react-range](https://github.com/tajo/react-range)
+
 ### 2022-06-21 react-pin-field
 
 验证码输入插件
