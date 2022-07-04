@@ -33,6 +33,17 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-07-04 react-timeago
+
+时间处理组件
+
+```cmd
+yarn add react-timeago
+```
+
+传入任意格式的时间,会与当前时间对比后返回 例如 3天前 等时间格式.
+
+[react-timeago](https://github.com/nmn/react-timeago)
 
 ### 2022-06-28 react-range
 
