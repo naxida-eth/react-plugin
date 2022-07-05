@@ -33,6 +33,18 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+
+### 2022-07-05 react-easy-crop
+
+图片裁剪组件
+
+```cmd
+yarn add react-easy-crop
+```
+[react-easy-crop](https://github.com/ValentinH/react-easy-crop)
+
+[demo](https://valentinh.github.io/react-easy-crop/)
+
 ### 2022-07-04 react-timeago
 
 时间处理组件
