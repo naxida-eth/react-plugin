@@ -34,6 +34,18 @@ module.exports = override(
 }
 ```
 
+### 2022-07-07 rc-image
+
+antd中抽离的图像组件
+
+```cmd
+yarn add rc-image
+```
+
+[rc-image](https://github.com/react-component/image)
+
+[api](https://image-sepia.vercel.app/#example)
+
 ### 2022-07-05 react-easy-crop
 
 图片裁剪组件
@@ -41,6 +53,7 @@ module.exports = override(
 ```cmd
 yarn add react-easy-crop
 ```
+
 [react-easy-crop](https://github.com/ValentinH/react-easy-crop)
 
 [demo](https://valentinh.github.io/react-easy-crop/)
@@ -53,7 +66,7 @@ yarn add react-easy-crop
 yarn add react-timeago
 ```
 
-传入任意格式的时间,会与当前时间对比后返回 例如 3天前 等时间格式.
+传入任意格式的时间,会与当前时间对比后返回 例如 3 天前 等时间格式.
 
 [react-timeago](https://github.com/nmn/react-timeago)
 
@@ -64,7 +77,8 @@ yarn add react-timeago
 ```cmd
 yarn add react-range
 ```
-react滑动条，接到需求需要做一个双向滑动条的筛选，体验不错的滑动插件。
+
+react 滑动条，接到需求需要做一个双向滑动条的筛选，体验不错的滑动插件。
 
 [react-range](https://github.com/tajo/react-range)
 
@@ -77,6 +91,7 @@ yarn add react-pin-field
 ```
 
 [react-pin-field](https://github.com/soywod/react-pin-field)
+
 ### 2022-06-16 react-collapsible
 
 文本折叠插件
@@ -122,6 +137,7 @@ yarn add react-query
 [react-query](https://github.com/TanStack/query)
 
 [api](https://tanstack.com/query/v4/docs/overview)
+
 ### 2022-06-06 react-medium-image-zoom
 
 日期选择插件
