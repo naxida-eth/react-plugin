@@ -33,6 +33,21 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-07-11 react-countup
+
+数字变换的显示组件 
+
+```cmd
+yarn add react-countup
+```
+
+[react-countup](https://github.com/glennreyes/react-countup)
+
+### 2022-07-11 reactime
+
+chrome的时间调试工具
+
+[reactime](https://github.com/open-source-labs/reactime/releases/tag/v14.0.0)
 
 ### 2022-07-07 rc-image
 
