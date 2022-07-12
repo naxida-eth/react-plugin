@@ -33,6 +33,17 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-07-12 react-toastify
+
+样式很好看的通知组件
+
+```cmd
+yarn add react-toastify
+```
+
+[react-toastify](https://github.com/fkhadra/react-toastify)
+[demo](https://fkhadra.github.io/react-toastify/introduction/)
+
 ### 2022-07-11 react-countup
 
 数字变换的显示组件 
