@@ -33,6 +33,17 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-07-14 react-search-autocomplete
+
+带模糊搜索和定制过滤，自动补全的搜索组件
+
+```cmd
+yarn add react-search-autocomplete
+```
+
+[react-search-autocomplete](https://github.com/sickdyd/react-search-autocomplete)
+
+[demo](https://github.com/sickdyd/react-search-autocomplete/tree/demo)
 
 ### 2022-07-13 react-use-websocket
 
