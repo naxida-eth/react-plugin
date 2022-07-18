@@ -33,6 +33,17 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+
+### 2022-07-18 yarn add react-click-away-listener
+
+监听何时点击组件外部的组件
+
+```cmd
+yarn add react-click-away-listener
+```
+
+[react-click-away-listener](https://github.com/ooade/react-click-away-listener);
+
 ### 2022-07-14 react-search-autocomplete
 
 带模糊搜索和定制过滤，自动补全的搜索组件
