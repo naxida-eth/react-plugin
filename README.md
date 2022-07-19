@@ -33,6 +33,15 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-07-19 yarn add rc-select
+
+经典的select组件
+
+```cmd
+yarn add rc-select
+```
+
+[react-component/select](https://github.com/react-component/select)
 
 ### 2022-07-18 yarn add react-click-away-listener
 
@@ -42,7 +51,7 @@ module.exports = override(
 yarn add react-click-away-listener
 ```
 
-[react-click-away-listener](https://github.com/ooade/react-click-away-listener);
+[react-click-away-listener](https://github.com/ooade/react-click-away-listener)
 
 ### 2022-07-14 react-search-autocomplete
 
