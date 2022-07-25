@@ -33,6 +33,18 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-07-25 yarn add react-hot-toast
+
+可自定义的通知组件
+
+```cmd
+yarn add react-hot-toast
+```
+
+[react-hot-toast](https://github.com/timolins/react-hot-toast)
+
+[demo](https://react-hot-toast.com/)
+
 ### 2022-07-19 yarn add rc-select
 
 经典的select组件
