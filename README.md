@@ -33,6 +33,18 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-07-26 yarn add react-super-responsive-table
+
+兼容移动端table组件
+
+```cmd
+yarn add react-super-responsive-table
+```
+
+[react-super-responsive-table](https://github.com/coston/react-super-responsive-table)
+
+[demo](https://user-images.githubusercontent.com/7424180/55982530-baab9900-5c5e-11e9-97c0-0336c5889504.gif)
+
 ### 2022-07-25 yarn add react-hot-toast
 
 可自定义的通知组件
