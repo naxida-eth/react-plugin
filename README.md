@@ -33,6 +33,19 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+
+### 2022-07-27 yarn add react-switch
+
+react switch组件 开关组件
+
+```cmd
+yarn add react-switch
+```
+
+[react-switch](https://github.com/markusenglund/react-switch)
+
+[demo](https://react-switch.netlify.app/)
+
 ### 2022-07-26 yarn add react-super-responsive-table
 
 兼容移动端table组件
