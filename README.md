@@ -33,6 +33,15 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-08-03 yarn add react-chrono
+
+时间旅行组件 时间轴，带轮播和扩展文本
+
+```cmd
+yarn add react-chrono
+```
+
+[react-chrono](https://github.com/prabhuignoto/react-chrono)
 
 ### 2022-07-27 yarn add react-switch
 
