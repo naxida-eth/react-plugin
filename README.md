@@ -33,6 +33,16 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+
+### 2022-08-04 yarn add react-error-boundary
+错误边界捕获组件
+
+```cmd
+yarn add react-error-boundary
+```
+
+[react-error-boundary](https://github.com/bvaughn/react-error-boundary)
+
 ### 2022-08-03 yarn add react-chrono
 
 时间旅行组件 时间轴，带轮播和扩展文本
