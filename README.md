@@ -33,6 +33,16 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+
+### 2022-08-08 yarn add use-clipboard-copy
+轻量级的react剪切板插件
+
+```cmd
+yarn add use-clipboard-copy
+```
+
+[use-clipboard-copy](https://github.com/wsmd/use-clipboard-copy)
+
 ### 2022-08-05 yarn add react-datasheet
 错误边界捕获组件
 
