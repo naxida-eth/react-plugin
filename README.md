@@ -34,7 +34,7 @@ module.exports = override(
 }
 ```
 ### 2022-08-05 yarn add react-datasheet
-错误边界捕获组件
+简易的表格组件,功能丰富
 
 ```cmd
 yarn add react-datasheet
