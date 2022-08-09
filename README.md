@@ -33,6 +33,17 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-08-09 yarn add monaco-react
+
+将vscode编辑器内置到网页中的插件
+
+```cmd
+yarn add monaco-react
+```
+
+[monaco-react](https://github.com/suren-atoyan/monaco-react)
+
+[demo](https://monaco-react.surenatoyan.com/)
 
 ### 2022-08-08 yarn add use-clipboard-copy
 轻量级的react剪切板插件
