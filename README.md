@@ -33,6 +33,18 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-08-10 yarn add rc-tabs
+
+rc-tab 从antd中抽离出来的经典tab组件
+
+```cmd  
+yarn add rc-tabs
+```
+
+[rc-tabs](https://github.com/react-component/tabs)
+
+[demo](https://tabs.react-component.vercel.app/)
+
 ### 2022-08-09 yarn add monaco-react
 
 将vscode编辑器内置到网页中的插件
