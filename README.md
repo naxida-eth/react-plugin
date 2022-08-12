@@ -33,6 +33,28 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-08-12 yarn add react-facebook-login
+
+facebook第三方登录插件
+
+```cmd  
+yarn add react-facebook-login
+```
+
+[react-facebook-login](https://github.com/keppelen/react-facebook-login)
+
+### 2022-08-12 yarn add react-oauth
+
+谷歌第三方登录插件
+
+```cmd  
+yarn add react-oauth
+```
+
+[react-oauth](https://github.com/MomenSherif/react-oauth)
+
+[demo](https://react-oauth.vercel.app/)
+
 ### 2022-08-10 yarn add rc-tabs
 
 rc-tab 从antd中抽离出来的经典tab组件
