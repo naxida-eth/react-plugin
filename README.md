@@ -32,7 +32,20 @@ module.exports = override(
    "build": "react-app-rewired build",
    "test": "react-app-rewired test",
 }
+
+
 ```
+
+### 2022-08-16 yarn add twittersignin
+
+twitter第三方登录，这是个nodejs插件
+
+```cmd  
+yarn add twittersignin
+```
+
+[twittersignin](https://github.com/shalvah/twittersignin)
+
 ### 2022-08-12 yarn add react-facebook-login
 
 facebook第三方登录插件
