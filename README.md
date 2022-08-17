@@ -112,7 +112,7 @@ yarn add use-clipboard-copy
 [use-clipboard-copy](https://github.com/wsmd/use-clipboard-copy)
 
 ### 2022-08-05 react-datasheet
-错误边界捕获组件
+创建电子表格的组件
 
 ```cmd
 yarn add react-datasheet
@@ -288,13 +288,11 @@ yarn add react-timeago
 
 ### 2022-06-28 react-range
 
-验证码输入插件
+react 滑动条，接到需求需要做一个双向滑动条的筛选，体验不错的滑动插件。
 
 ```cmd
 yarn add react-range
 ```
-
-react 滑动条，接到需求需要做一个双向滑动条的筛选，体验不错的滑动插件。
 
 [react-range](https://github.com/tajo/react-range)
 
@@ -356,7 +354,7 @@ yarn add react-query
 
 ### 2022-06-06 react-medium-image-zoom
 
-日期选择插件
+图片缩放插件
 
 ```cmd
 yarn add react-medium-image-zoom
@@ -402,7 +400,7 @@ yarn add @steveeeie/react-page-transition
 
 ### 2022-05-24 styled-components
 
-敏捷开发样式的插件。非常快！
+敏捷开发样式的插件。非常快！ css-in-js库中的经典插件
 
 ```ts
 yarn add styled-components
