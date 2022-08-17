@@ -36,7 +36,17 @@ module.exports = override(
 
 ```
 
-### 2022-08-16 yarn add twittersignin
+### 2022-08-17 gapi-script
+
+谷歌第三方登录 这个插件可以获取id_token
+
+```cmd  
+yarn add gapi-script
+```
+
+[md](https://github.com/GoogleCloudPlatform/web-docs-samples/blob/HEAD/endpoints-frameworks/main.js)
+
+### 2022-08-16 twittersignin
 
 twitter第三方登录，这是个nodejs插件
 
@@ -46,7 +56,7 @@ yarn add twittersignin
 
 [twittersignin](https://github.com/shalvah/twittersignin)
 
-### 2022-08-12 yarn add react-facebook-login
+### 2022-08-12 react-facebook-login
 
 facebook第三方登录插件
 
@@ -56,7 +66,7 @@ yarn add react-facebook-login
 
 [react-facebook-login](https://github.com/keppelen/react-facebook-login)
 
-### 2022-08-12 yarn add react-oauth
+### 2022-08-12 react-oauth
 
 谷歌第三方登录插件
 
@@ -68,7 +78,7 @@ yarn add react-oauth
 
 [demo](https://react-oauth.vercel.app/)
 
-### 2022-08-10 yarn add rc-tabs
+### 2022-08-10 rc-tabs
 
 rc-tab 从antd中抽离出来的经典tab组件
 
@@ -80,7 +90,7 @@ yarn add rc-tabs
 
 [demo](https://tabs.react-component.vercel.app/)
 
-### 2022-08-09 yarn add monaco-react
+### 2022-08-09 monaco-react
 
 将vscode编辑器内置到网页中的插件
 
@@ -92,7 +102,7 @@ yarn add monaco-react
 
 [demo](https://monaco-react.surenatoyan.com/)
 
-### 2022-08-08 yarn add use-clipboard-copy
+### 2022-08-08 use-clipboard-copy
 轻量级的react剪切板插件
 
 ```cmd
@@ -101,8 +111,8 @@ yarn add use-clipboard-copy
 
 [use-clipboard-copy](https://github.com/wsmd/use-clipboard-copy)
 
-### 2022-08-05 yarn add react-datasheet
-简易的表格组件,功能丰富
+### 2022-08-05 react-datasheet
+创建电子表格的组件
 
 ```cmd
 yarn add react-datasheet
@@ -113,7 +123,7 @@ yarn add react-datasheet
 [demo](https://nadbm.github.io/react-datasheet/)
 
 
-### 2022-08-04 yarn add react-error-boundary
+### 2022-08-04 react-error-boundary
 错误边界捕获组件
 
 ```cmd
@@ -122,7 +132,7 @@ yarn add react-error-boundary
 
 [react-error-boundary](https://github.com/bvaughn/react-error-boundary)
 
-### 2022-08-03 yarn add react-chrono
+### 2022-08-03 react-chrono
 
 时间旅行组件 时间轴，带轮播和扩展文本
 
@@ -132,7 +142,7 @@ yarn add react-chrono
 
 [react-chrono](https://github.com/prabhuignoto/react-chrono)
 
-### 2022-07-27 yarn add react-switch
+### 2022-07-27 react-switch
 
 react switch组件 开关组件
 
@@ -144,7 +154,7 @@ yarn add react-switch
 
 [demo](https://react-switch.netlify.app/)
 
-### 2022-07-26 yarn add react-super-responsive-table
+### 2022-07-26 react-super-responsive-table
 
 兼容移动端table组件
 
@@ -156,7 +166,7 @@ yarn add react-super-responsive-table
 
 [demo](https://user-images.githubusercontent.com/7424180/55982530-baab9900-5c5e-11e9-97c0-0336c5889504.gif)
 
-### 2022-07-25 yarn add react-hot-toast
+### 2022-07-25 react-hot-toast
 
 可自定义的通知组件
 
@@ -168,7 +178,7 @@ yarn add react-hot-toast
 
 [demo](https://react-hot-toast.com/)
 
-### 2022-07-19 yarn add rc-select
+### 2022-07-19 rc-select
 
 经典的select组件
 
@@ -178,7 +188,7 @@ yarn add rc-select
 
 [react-component/select](https://github.com/react-component/select)
 
-### 2022-07-18 yarn add react-click-away-listener
+### 2022-07-18 react-click-away-listener
 
 监听何时点击组件外部的组件
 
@@ -278,13 +288,11 @@ yarn add react-timeago
 
 ### 2022-06-28 react-range
 
-验证码输入插件
+react 滑动条，接到需求需要做一个双向滑动条的筛选，体验不错的滑动插件。
 
 ```cmd
 yarn add react-range
 ```
-
-react 滑动条，接到需求需要做一个双向滑动条的筛选，体验不错的滑动插件。
 
 [react-range](https://github.com/tajo/react-range)
 
@@ -346,7 +354,7 @@ yarn add react-query
 
 ### 2022-06-06 react-medium-image-zoom
 
-日期选择插件
+图片缩放插件
 
 ```cmd
 yarn add react-medium-image-zoom
@@ -392,7 +400,7 @@ yarn add @steveeeie/react-page-transition
 
 ### 2022-05-24 styled-components
 
-敏捷开发样式的插件。非常快！
+敏捷开发样式的插件。非常快！ css-in-js库中的经典插件
 
 ```ts
 yarn add styled-components
