@@ -36,6 +36,18 @@ module.exports = override(
 
 ```
 
+### 2022-08-18 react-rating
+
+评分插件  ⭐️⭐️⭐️⭐️⭐️
+
+```cmd  
+yarn add react-rating
+```
+
+[react-rating](https://github.com/smastrom/react-rating)
+
+[demo](https://react-rating.onrender.com/)
+
 ### 2022-08-17 gapi-script
 
 谷歌第三方登录 这个插件可以获取id_token
