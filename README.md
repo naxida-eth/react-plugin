@@ -36,6 +36,35 @@ module.exports = override(
 
 ```
 
+### 2022-08-30 yup
+
+yup 数据校验插件
+
+```cmd  
+yarn add yup
+```
+
+[yup](https://github.com/jquense/yup#stringuppercasemessage-string--function-schema)
+
+[api](https://github.com/jquense/yup#api)
+
+### 2022-08-30 react-hook-form
+
+react form 表单处理组件可以配合yup 进行输入验证
+
+```cmd  
+yarn add react-hook-form
+```
+
+[react-hook-form](https://github.com/react-hook-form/react-hook-form)
+
+[api](https://react-hook-form.com/api)
+
+```cmd
+yarn add @hookform/resolvers yup
+```
+[与yup配合](https://react-hook-form.com/get-started/#SchemaValidation)
+
 ### 2022-08-18 react-rating
 
 评分插件  ⭐️⭐️⭐️⭐️⭐️
