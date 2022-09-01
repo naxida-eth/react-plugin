@@ -35,6 +35,16 @@ module.exports = override(
 
 
 ```
+### 2022-09-01 qrcode.react
+
+二维码生成插件
+
+```cmd  
+yarn add qrcode.react
+```
+
+[qrcode.react](https://github.com/zpao/qrcode.react)
+
 
 ### 2022-08-30 yup
 
