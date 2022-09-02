@@ -33,6 +33,17 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 
+### 2022-09-02 react-swipeable-views
+
+滑动item组件，很流畅
+
+```cmd  
+yarn add react-swipeable-views
+```
+
+[react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views)
+
+[demo](https://react-swipeable-views.com/demos/demos/)
 
 ```
 ### 2022-09-01 qrcode.react
