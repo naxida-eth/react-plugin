@@ -32,7 +32,24 @@ module.exports = override(
    "build": "react-app-rewired build",
    "test": "react-app-rewired test",
 }
+
+
+
+### 2022-09-05 react-use-please-stay
+
+favicon 图片和title监听替换  
+
+```cmd  
+yarn add react-use-please-stay
 ```
+
+[react-use-please-stay](https://github.com/princefishthrower/react-use-please-stay)
+
+
+```
+
+=======
+
 ### 2022-09-02 react-swipeable-views
 
 滑动item组件，很流畅
@@ -46,6 +63,8 @@ yarn add react-swipeable-views
 [demo](https://react-swipeable-views.com/demos/demos/)
 
 ```
+
+
 ### 2022-09-01 qrcode.react
 
 二维码生成插件
