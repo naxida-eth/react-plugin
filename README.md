@@ -34,6 +34,17 @@ module.exports = override(
 }
 ```
 
+### 2022-09-13 @react-three/xr
+
+react 开发VR/AR
+
+```cmd  
+yarn add @react-three/xr
+```
+
+[@react-three/xr](https://github.com/pmndrs/react-xr)
+
+
 ### 2022-09-13 react-day-picker
 
 react日历组件
