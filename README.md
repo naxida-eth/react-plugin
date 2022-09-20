@@ -33,8 +33,19 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-09-20 little-state-machine
 
-### 2022-09-13 @react-three/xr
+react 状态管理工具
+
+```cmd  
+yarn add little-state-machine
+```
+
+[little-state-machine](https://github.com/beekai-oss/little-state-machine)
+
+[demo](https://codesandbox.io/s/wild-dawn-ud8bq)
+
+### 2022-09-16 @react-three/xr
 
 react 开发VR/AR
 
