@@ -33,6 +33,18 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-09-23 react-select
+
+select下拉组件
+
+```cmd  
+yarn add react-select
+```
+
+[react-select](https://github.com/jedwatson/react-select)
+
+[home](https://react-select.com/home)
+
 ### 2022-09-20 little-state-machine
 
 react 状态管理工具
