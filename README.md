@@ -33,6 +33,19 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
+### 2022-09-23 react-circular-input
+
+圆形数字输入组件
+
+```cmd  
+yarn add react-circular-input
+```
+
+[react-circular-input](https://github.com/petecorreia/react-circular-input)
+
+[home](https://react-circular-input.vercel.app/)
+
+[demo](https://codesandbox.io/s/ypwq61rnxz?hidenavigation=1&file=/src/index.tsx)
 ### 2022-09-23 react-select
 
 select下拉组件
