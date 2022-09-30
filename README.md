@@ -33,7 +33,21 @@ module.exports = override(
    "test": "react-app-rewired test",
 }
 ```
-### 2022-09-23 react-circular-input
+
+
+### 2022-09-30 react-virtuoso
+
+虚拟列表组件
+
+```cmd  
+yarn add react-virtuoso
+```
+
+[react-virtuoso](https://github.com/petyosi/react-virtuoso)
+
+[home](https://virtuoso.dev/)
+
+### 2022-09-27 react-circular-input
 
 圆形数字输入组件
 
