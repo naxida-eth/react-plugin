@@ -34,6 +34,20 @@ module.exports = override(
 }
 ```
 
+### 2022-10-21 react-number-format
+
+```cmd  
+yarn add react-number-format
+```
+
+[react-number-format](https://github.com/s-yadav/react-number-format)
+
+[wiki](https://s-yadav.github.io/react-number-format/docs/intro/)
+
+提升用户输入 文本/数字 时的体验
+
+```
+
 ### 2022-10-09 react-responsive
 
 ```cmd  
