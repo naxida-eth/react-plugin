@@ -34,6 +34,18 @@ module.exports = override(
 }
 ```
 
+### 2022-10-28 react-modal
+
+模态框组件, 样式简单，需要自定义
+
+```cmd  
+yarn add react-modal
+```
+
+[react-modal](https://github.com/reactjs/react-modal)
+
+[wiki](https://reactjs.github.io/react-modal)
+
 ### 2022-10-21 react-number-format
 
 ```cmd  
@@ -109,20 +121,6 @@ components
     </div>
   )
 ```
-
-
-### 2022-10-28 react-modal
-
-模态框组件, 样式简单，需要自定义
-
-```cmd  
-yarn add react-modal
-```
-
-[react-modal](https://github.com/reactjs/react-modal)
-
-[wiki](https://reactjs.github.io/react-modal)
-
 
 ### 2022-10-08 react-grid-gallery
 
